@@ -22,3 +22,29 @@ body {
     background-color: rgb(93, 178, 101);
     color: white;
 }
+.card{
+    border: 2px solid rgb(3, 42, 7);
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card img {
+    width: 100%;
+    
+}
+.card button {
+    width: 70%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.card button:hover {
+    background-color: rgb(93, 178, 101);
+    color: white;
+    cursor: pointer;
+}
